@@ -1,19 +1,19 @@
-buildings=['plaza 1','plaza 2','plaza 3','plaza 4','plaza 5','plaza 6','plaza 7','plaza 8','plaza 9','plaza 10']
+buildings=['A','B','C','D','E','F','G','H','I','J']
 
-# implementing the push
-buildings.append('plaza 11')
-
+# implementing the push operation
+buildings.append('K')
 print(buildings)
 
-# implementing the pop
+# implementing the pop operation
 buildings.pop()
 print(buildings)
 
-# implementing the peek
+# implementing the peek operations
 x=buildings[-1]
 print(x)
 
-# implenting the is_empty
-buildings=[]
-if len(buildings)==0:
-    print('The Stack is empty')
+# implementing the is_empty operation
+if len(buildings) == 0:
+    print('Stack is empty')
+else:
+    print('stack is not empty')
